@@ -1,0 +1,6 @@
+.centered {
+    text-align: center;
+}
+.centered > * {
+    display: inline-block;
+}
