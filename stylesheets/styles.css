@@ -699,7 +699,7 @@ dt {
   overflow: scroll; 
   z-index: 100;
   left: 0;
-  top: 50px;
+  top: 0px;
   height: 70px;
   width: 100%;
   position: fixed;
