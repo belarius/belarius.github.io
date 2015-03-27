@@ -590,6 +590,13 @@ a:hover {
   color: #ffeb9b;
 }
 
+a.anchor{
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
 a small {
   font-size: 11px;
   color: #666;
@@ -610,7 +617,7 @@ strong {
   max-width: 650px;
   margin: 0 auto;
   position: relative;
-  padding: 0 70px;
+  padding: 0 20px;
 }
 
 section img {
