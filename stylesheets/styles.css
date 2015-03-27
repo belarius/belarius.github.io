@@ -696,7 +696,6 @@ dt {
 }
 
 #header {
-  overflow: scroll; 
   z-index: 100;
   left: 0;
   height: 70px;
