@@ -10,12 +10,7 @@
 	<link rel="stylesheet" href="https://belarius.github.io/stylesheets/mods.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-	<script type="text/x-mathjax-config">
-		MathJax.Hub.Config({
-		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-		});
-	</script>
-	<script type="text/javascript" async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js'></script>
+	<script type="text/javascript" async src='https://belarius.github.io/javascripts/MathJax/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
 	<script src="https://belarius.github.io/javascripts/respond.js"></script>
 	<!--[if lt IE 9]>
@@ -66,9 +61,9 @@
 				<h2>Models</h2>
 				<p>Idle hands.</p>
 				<pre><code>fprint 'hello world'<br>fprint 'hello another_world'</code></pre>
-				<pre style="background-color:#F4F2F0;color:#000000">
-					$$\frac{1}{b^2}$$
-				</pre>
+				<p>This is an inline equation: \(x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\)</p>
+				<p>\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+				<p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
 			</div>
 		</section>
     </div>
