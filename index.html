@@ -11,6 +11,49 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" async src='https://belarius.github.io/javascripts/MathJax/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 	<script src="https://belarius.github.io/javascripts/respond.js"></script>
+
+	<script type="text/javascript">
+		var imageURLs = [
+			"https://belarius.github.io/images/map01.png",
+			"https://belarius.github.io/images/map02.png",
+			"https://belarius.github.io/images/map03.png",
+			"https://belarius.github.io/images/map04.png",
+			"https://belarius.github.io/images/map05.png",
+			"https://belarius.github.io/images/map06.png",
+			"https://belarius.github.io/images/map07.png",
+			"https://belarius.github.io/images/map08.png",
+			"https://belarius.github.io/images/map09.png"
+			"https://belarius.github.io/images/map10.png"
+			"https://belarius.github.io/images/map11.png",
+			"https://belarius.github.io/images/map12.png",
+			"https://belarius.github.io/images/map13.png",
+			"https://belarius.github.io/images/map14.png",
+			"https://belarius.github.io/images/map15.png",
+			"https://belarius.github.io/images/map16.png",
+			"https://belarius.github.io/images/map17.png",
+			"https://belarius.github.io/images/map18.png",
+			"https://belarius.github.io/images/map19.png"
+			"https://belarius.github.io/images/map20.png"
+			"https://belarius.github.io/images/map21.png",
+			"https://belarius.github.io/images/map22.png",
+			"https://belarius.github.io/images/map23.png",
+			"https://belarius.github.io/images/map24.png",
+			"https://belarius.github.io/images/map25.png",
+			"https://belarius.github.io/images/map26.png",
+			"https://belarius.github.io/images/map27.png",
+			"https://belarius.github.io/images/map28.png",
+			"https://belarius.github.io/images/map29.png"
+		];
+		function getImageTag() {
+			var img = '<img src=\"';
+			var randomIndex = Math.floor(Math.random() * imageURLs.length);
+			img += imageURLs[randomIndex];
+    		img += '\" alt=\"Some alt text\"/>';
+			return img;
+		}
+	</script>
+
+
 	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -56,11 +99,12 @@
 				<p>Greg Jensen&#39;s Cache of Conjectures</p>
 				<hr>
 			</div>
-			<h3><a id="under-construction" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>This Space is Under Construction.</h3>
-			<p>I do what I can, you know? Everything is a work in progress</p>
-			<p>Presumably this will all seem more professional as I figure out what I'm doing.</p>
-			<h3><a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
-			<p><strong>Email:</strong> greg {dot} guichard {dot} jensen {at} gmail {dot} com</p>
+			<p style="font-size:116%;">"As Dante pointed out in 1320, there was an obvious problem here, for the arguments of the philosophers and the maps of the geographers did not match up."</p>
+			<p align="right">-David Wootton, <i>The Invention of Science</i> (2015)</p>
+			<script type="text/javascript">
+				document.write(getImageTag());
+			</script>
+			<p align="right">-<i><a href="https://www.amazon.com/Dictionary-Imaginary-Places-Updated-Expanded/dp/0156008726">The Dictionary of Imaginary Places<a></i> (1980)</p>
 		</section>
 	</div>
 
