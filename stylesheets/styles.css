@@ -859,3 +859,10 @@ section #title .credits.right {
     display: none;
   }
 }
+
+.floatRightClear{
+	float:right;
+	clear:left;
+	margin-left:20px
+}
+
