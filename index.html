@@ -44,11 +44,42 @@
 			"map28.png",
 			"map29.png"
 		];
+		var imageALTs = [
+			"A map of AKKAMA, FINGISWOLD, REREK, and MESZRIA.",
+			"A map of ARKHAM.",
+			"A map of THE KINGDOM OF ATVATABAR.",
+			"A map of THE BLAZING WORLD.",
+			"A map of CHRISTIAN'S COUNTRY.",
+			"A map of COOPERATIVE CITY",
+			"A map of THE DREAMWORLD.",
+			"A map of EARTHSEA.",
+			"A map of EREWHON.",
+			"A map of FAIRYLAND.",
+			"A map of ISLANDIA.",
+			"A map of THE KARAIN CONTINENT.",
+			"A map of KOSEKIN COUNTRY.",
+			"A cross-sectional diagram of LAPUTA.",
+			"A map of MECCANIA and MECCO, THE CAPITAL.",
+			"A map of MIDDLE-EARTH.",
+			"A map of MOOMINLAND & DADDY JONES' KINGDOM.",
+			"A map of NARNIA And Adjoining Lands.",
+			"A map of THE MARVELOUS LAND OF OZ.",
+			"A map of THE COUNTRIES SURROUNDING OZ.",
+			"A map of PELLUCIDAR.",
+			"A map of POICTESME.",
+			"A map of PRYDAIN.",
+			"A map of THE RIALLARO ARCHIPELAGO.",
+			"A map of STANDARD ISLAND.",
+			"A map of UTOPIA.",
+			"A map of THE LAND OF THE WELL AT THE WORLD'S END & UPMEADS.",
+			"A map of THE ISLES OF WISDOM.",
+			"A map of WONDERLAND.",
+		];
 		function getImageTag() {
 			var img = '<img src=\"https://belarius.github.io/images/';
 			var randomIndex = Math.floor(Math.random() * imageURLs.length);
 			img += imageURLs[randomIndex];
-    		img += '\" alt=\"Some alt text\"/>';
+    		img += '\" alt=imageALTs[randomIndex];/>';
 			return img;
 		}
 	</script>
