@@ -79,7 +79,9 @@
 			var img = '<img src=\"https://belarius.github.io/images/';
 			var randomIndex = Math.floor(Math.random() * imageURLs.length);
 			img += imageURLs[randomIndex];
-    		img += '\" alt=imageALTs[randomIndex];/>';
+    		img += '\" alt=';
+    		img += imageALTs[randomIndex];
+    		img += '/>';
 			return img;
 		}
 	</script>
